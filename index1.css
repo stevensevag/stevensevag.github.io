@@ -1,0 +1,430 @@
+@import "https://unpkg.com/open-props";
+
+* {
+  box-sizing: border-box;
+
+}
+
+
+body {
+  background-color: #03000b;
+  margin-top: 0.5em;
+  margin: auto;
+  text-align: center;
+  /*background: linear-gradient(155deg,#C471FF, #1006CFF 50%,#b00954);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #302952, #23d5ab);
+  background: linear-gradient(155deg,#C471FF, #1006CFF 50%,#b00954);*/
+  background: linear-gradient(-45deg, #ffc371, #3664ad, #ad5574, #b33229);
+  background-size: 400% 400%;
+  /*animation: animated_text 25s ease infinite;*/
+  height: 100vh;
+
+}
+
+
+div.sevag {
+
+  
+
+	background: linear-gradient(-45deg, #FFA701, #b3003b,#f9effa, #ffffff);
+  /*  text-shadow: 2px 12px 205px #46a36e, #FFF 0px 0px 444px;
+  background: linear-gradient(-45deg, #FFA701, #ffffff,#FFA701, #ff96d3);*/
+    bottom: 130%;
+	background-size: 400%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 6vw;
+	letter-spacing: -5px;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*animation: animated_text 10s ease-in-out infinite;
+	-moz-animation: animated_text 10s ease-in-out infinite;
+	-webkit-animation: animated_text 10s ease-in-out infinite;
+  */
+
+}
+
+
+h1.sevag:hover {
+
+
+	animation: animated_text 4s ease-in-out infinite;
+	-moz-animation: animated_text 4s ease-in-out infinite;
+	-webkit-animation: animated_text 4s ease-in-out infinite;
+
+}
+
+h2.sevag {
+
+    text-shadow: 2px 12px 205px #46a36e, #FFF 0px 0px 444px; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+
+	background: linear-gradient(-45deg, #FFA701, #ffffff,#FFA701, #ff96d3);
+    bottom: 130%;
+	background-size: 400%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 2.3vw;
+	letter-spacing: 15px;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+
+}
+
+h2.sevag:hover {
+
+
+	animation: animated_text 4s ease-in-out infinite;
+	-moz-animation: animated_text 4s ease-in-out infinite;
+	-webkit-animation: animated_text 4s ease-in-out infinite;
+
+}
+
+h3.sevag {
+
+  text-shadow: 2px 12px 205px #46a36e, #FFF 0px 0px 444px; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+
+background: linear-gradient(-45deg, #FFA701, #ffffff,#FFA701, #ff96d3);
+  bottom: 130%;
+background-size: 400%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+font-size: 1.3vw;
+letter-spacing: 1px;
+text-transform: uppercase;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+h3.sevag:hover {
+
+
+	animation: animated_text 4s ease-in-out infinite;
+	-moz-animation: animated_text 4s ease-in-out infinite;
+	-webkit-animation: animated_text 4s ease-in-out infinite;
+
+}
+
+
+
+div.info {
+
+    color: white;
+	font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+a {
+    color: white;
+}
+
+p {
+
+    color: white;
+	font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+
+
+.wordCarousel {
+  font-size: 36px;
+  font-weight: 100;
+  color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.wordCarousel div {
+  overflow: hidden;
+  position: relative;
+  
+  height: 65px;
+  
+}
+.wordCarousel div li {
+  color: #eee;
+  font-weight: 700;
+  padding: 0 10px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.flip2 {
+  -webkit-animation: flip2 4s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+          animation: flip2 4s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+.flip3 {
+  -webkit-animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+          animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+.flip4 {
+  -webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+          animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+.flip5 {
+  -webkit-animation: flip5 12s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+          animation: flip5 12s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+@-webkit-keyframes flip2 {
+  0% {
+    margin-top: -180px;
+  }
+  5% {
+    margin-top: -90px;
+  }
+  50% {
+    margin-top: -90px;
+  }
+  55% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -180px;
+  }
+}
+
+@keyframes flip2 {
+  0% {
+    margin-top: -180px;
+  }
+  5% {
+    margin-top: -90px;
+  }
+  50% {
+    margin-top: -90px;
+  }
+  55% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -180px;
+  }
+}
+@-webkit-keyframes flip3 {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+@keyframes flip3 {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+@-webkit-keyframes flip4 {
+  0% {
+    margin-top: -360px;
+  }
+  5% {
+    margin-top: -270px;
+  }
+  25% {
+    margin-top: -270px;
+  }
+  30% {
+    margin-top: -180px;
+  }
+  50% {
+    margin-top: -180px;
+  }
+  55% {
+    margin-top: -90px;
+  }
+  75% {
+    margin-top: -90px;
+  }
+  80% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -360px;
+  }
+}
+@keyframes flip4 {
+  0% {
+    margin-top: -360px;
+  }
+  5% {
+    margin-top: -270px;
+  }
+  25% {
+    margin-top: -270px;
+  }
+  30% {
+    margin-top: -180px;
+  }
+  50% {
+    margin-top: -180px;
+  }
+  55% {
+    margin-top: -90px;
+  }
+  75% {
+    margin-top: -90px;
+  }
+  80% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -360px;
+  }
+}
+@-webkit-keyframes flip5 {
+  0% {
+    margin-top: -450px;
+  }
+  5% {
+    margin-top: -360px;
+  }
+  20% {
+    margin-top: -360px;
+  }
+  25% {
+    margin-top: -270px;
+  }
+  40% {
+    margin-top: -270px;
+  }
+  45% {
+    margin-top: -180px;
+  }
+  60% {
+    margin-top: -180px;
+  }
+  65% {
+    margin-top: -90px;
+  }
+  80% {
+    margin-top: -90px;
+  }
+  85% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -450px;
+  }
+}
+@keyframes flip5 {
+  0% {
+    margin-top: -450px;
+  }
+  5% {
+    margin-top: -360px;
+  }
+  20% {
+    margin-top: -360px;
+  }
+  25% {
+    margin-top: -270px;
+  }
+  40% {
+    margin-top: -270px;
+  }
+  45% {
+    margin-top: -180px;
+  }
+  60% {
+    margin-top: -180px;
+  }
+  65% {
+    margin-top: -90px;
+  }
+  80% {
+    margin-top: -90px;
+  }
+  85% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -450px;
+  }
+}
